@@ -73,14 +73,14 @@ export const WETH = {
   ),
   [ChainId.RINKEBY]: new Token(
     ChainId.RINKEBY,
-    '0x31D1CA84027435b4568b0bb7a2C9C6DB2188941a',
+    '0x837b567ae4390924a6bC1F0e55ee97904C15E3d1',
     18,
     'WETH',
     'Wrapped Ether'
   ),
   [ChainId.GÖRLI]: new Token(ChainId.GÖRLI, '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.KOVAN]: new Token(ChainId.KOVAN, '0xd0A1E359811322d97991E03f863a0C30C2cF029C', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.HECO]: new Token(ChainId.HECO, '0x31D1CA84027435b4568b0bb7a2C9C6DB2188941a', 18, 'WHT', 'Wrapped HT'),
-  [ChainId.CONFLUX]: new Token(ChainId.CONFLUX, '0x31D1CA84027435b4568b0bb7a2C9C6DB2188941a', 18, 'WCFX', 'Wrapped Conflux'),
-  [ChainId.CONFLUXT]: new Token(ChainId.CONFLUXT, '0x31D1CA84027435b4568b0bb7a2C9C6DB2188941a', 18, 'WCFX', 'Wrapped Conflux')
+  [ChainId.HECO]: new Token(ChainId.HECO, '0x837b567ae4390924a6bC1F0e55ee97904C15E3d1', 18, 'WHT', 'Wrapped HT'),
+  [ChainId.CONFLUX]: new Token(ChainId.CONFLUX, '0x837b567ae4390924a6bC1F0e55ee97904C15E3d1', 18, 'WCFX', 'Wrapped Conflux'),
+  [ChainId.CONFLUXT]: new Token(ChainId.CONFLUXT, '0x837b567ae4390924a6bC1F0e55ee97904C15E3d1', 18, 'WCFX', 'Wrapped Conflux')
 }
